@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #090909;
+}
+
+::-webkit-scrollbar{
+ width: 5px;
+}
+::-webkit-scrollbar-track{
+  background: rgb(255, 255, 255);
+ }
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+}
+
+.react-calendar{
+  background: #090909;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+}
+
+.react-calendar__tile--now{
+  background: #20ff7d;
+  border-radius: 10px;
+  color:black;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: white;
+}
+
+.react-calendar__tile--active{
+  background: #20ff7d;
+  border-radius: 10px;
+}
+
+.react-calendar__navigation__next2-button, .react-calendar__navigation__prev2-button{
+  display: none;
+}
+.react-calendar__navigation__next-button, .react-calendar__navigation__prev-button{
+  padding: 10px 40px;
+}
+
+.react-calendar__month-view__days__day{
+  border-radius: 10px;
+}
+.react-calendar__tile:hover{
+  background: #20ff7d;
+}

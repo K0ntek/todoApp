@@ -161,7 +161,7 @@ function handleDelete(index){
                 </div>
             </div>
 
-        <div className=' text-black py-10 rounded-2xl relative top-[-20px] w-[96%] mx-auto grid grid-cols-2 gap-6 '>
+        <div className=' text-black py-10 rounded-2xl relative top-[-20px] w-[96%] mx-auto grid sm:grid-cols-2 gap-6 '>
           <div className=' bg-[#fafafa] rounded-3xl h-[500px]'>
             <h1 className=' text-5xl font-[500] m-4'>Tasks</h1>
              <div className=' space-y-4 overflow-y-scroll h-[400px] pb-3 tasksWrapper'>
@@ -178,9 +178,9 @@ function handleDelete(index){
             ))}
              </div>
           </div>
-          <div className=' bg-[#090909] aspect-video rounded-3xl w-full mx-auto p-4 h-[500px]'>
+          <div className=' bg-[#090909] sm:aspect-video rounded-3xl w-full mx-auto p-4 h-[500px]'>
           <h1 className=' text-5xl font-[500] m-4 text-white'>Choose date</h1>
-          <Calendar />
+          <Calendar/>
           </div>
         </div>
 

@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <div className=' lg:flex'>
-        <div className=' w-full lg:w-[550px]'>
+        <div className=' w-full lg:w-[450px]'>
           <Navbar/>
         </div>
         <TodoList/>
